@@ -39,54 +39,6 @@ def recBinSearch(y, nums, low, high):
         
 
 
-#! /usr/bin/env python3
-
-#Bernardo D. Villajuan
-#February 22, 2015
-#DarthBlu-ManMarauder.py
-
-from graphics import *
-
-def main():
-    win = GraphWin("Snowman", 600, 600)
-    base = Circle(Point(300, 400), 80)
-    base.setFill("blue")
-    base.draw(win)
-    midsection = Circle(Point(300,300), 60)
-    midsection.setFill("blue")
-    midsection.draw(win)
-    top = Circle(Point(300,220), 40)
-    top.setFill("blue")
-    top.draw(win)
-    eyes1 = Circle(Point(280, 210),6)
-    eyes1.setFill("black")
-    eyes1.draw(win)
-    eyes2 = Circle(Point(320, 210),6)
-    eyes2.setFill("black")
-    eyes2.draw(win)
-    nose = Polygon(Point(296, 220), Point(330, 224), Point(296, 230))
-    nose.setFill("yellow")
-    nose.draw(win)
-    arm1 = Line(Point(270,300), Point(300,380))
-    arm1.draw(win)
-    arm2 = Line(Point(330,308), Point(400,306))
-    arm2.draw(win)
-    lightsaber = Polygon(Point(400,306), Point(404,306), Point(404,120), Point(400,120))
-    lightsaber.setFill("purple")
-    lightsaber.draw(win)
-    lightsaber2 = Polygon(Point(398,306), Point(406,306), Point(404,340), Point(398,340))
-    lightsaber2.setFill("black")
-    lightsaber2.draw(win)
-    lightsaber3 = Polygon(Point(370,390), Point(364,390), Point(204,376), Point(300,376))
-    lightsaber3.setFill("purple")
-    lightsaber3.draw(win)
-    lightsaber4 = Polygon(Point(), Point(), Point(), Point())
-    lightsaber4.setFill("purple")
-    lightsaber4.draw(win)
-    win.getMouse()
-    win.close()
-    
-main()
 
 
 
